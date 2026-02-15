@@ -1,0 +1,26 @@
+@"
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+*.key
+*.pem
+
+# Logs
+*.log
+
+# Node
+node_modules/
+dist/
+build/
+
+# Go
+/bin/
+/*.exe
+*.out
+"@ | Out-File -Encoding utf8 .gitignore
